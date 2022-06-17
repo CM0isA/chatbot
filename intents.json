@@ -1,0 +1,72 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hi",
+                "greetings",
+                "what's up?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "quest",
+            "patterns": [
+                "I would like a new adventure",
+                "new Quest",
+                "Let's play",
+                "let's go"
+            ],
+            "responses": [
+                "So you're ready for a new quest.",
+                "Let's see what can we do for you.",
+                "Let's see what jobs have open for a lad like you."
+            ]
+        },
+        {
+            "tag": "difficulty-easy",
+            "patterns": [
+                "Go easy this time!",
+                "easy boy, easy",
+                "that was too hard",
+                ""
+            ],
+            "responses": [
+                "Ok, we will go easy",
+                "Baby difficulty, got it."
+            ]
+        },
+        {
+            "tag": "difficulty-medium",
+            "patterns": [
+                "Go easy this time!",
+                "It was ok",
+                "casual this time"
+            ],
+            "responses": [
+                "Like a walk in the park",
+                "Medium",
+                "Casual day it is."
+            ]
+        },
+        {
+            "tag": "difficulty-hard",
+            "patterns": [
+                "All I can handle",
+                "Give me all you've got",
+                "That was too easy",
+                "That's all you got?"
+            ],
+            "responses": [
+                "Looks like you're up for a challenge.",
+                "Let's go harder!",
+                "Alright soldier!"
+            ]
+        }
+    ]
+}
